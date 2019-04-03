@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button;
-        button = findViewById(R.id.but_log);
+
+
     }
     public void next(View view){
         Intent intent= new Intent(this,Main2Activity.class);
